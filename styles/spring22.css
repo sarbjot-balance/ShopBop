@@ -1,0 +1,19 @@
+#container_vish {
+    width: 80%;
+    margin: auto;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+#video,#vidimg  {
+    margin-top: -5px;
+}
+#vidimg {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+}
+#get {
+ margin-top: -5px;
+}

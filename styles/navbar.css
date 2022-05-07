@@ -1,0 +1,134 @@
+* {
+  font-family: GT-America-Standard, "Helvetica Neue", Helvetica, sans-serif;
+}
+.navis .iconed {
+  height: 20px;
+  width: 20px;
+}
+.navis h3 {
+  font-size: 14px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.new h3 {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+.containers-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf9f9;
+  padding: 8px 60px;
+  margin-top: 0;
+}
+#lang {
+  display: flex;
+  gap: 10px;
+}
+#country,
+#en,
+#currencies,
+#containers-2 {
+  position: relative;
+  cursor: pointer;
+}
+#signChild {
+  position: relative;
+  cursor: pointer;
+}
+#countryList,
+#language,
+#currenciesChild,
+#signChilds,
+.new {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#country:hover #countryList,
+#en:hover #language,
+#signChild:hover #signChilds {
+  display: block;
+  cursor: pointer;
+}
+#currencies:hover #currenciesChild {
+  display: flex;
+  gap: 20px;
+}
+.navis h2 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.navis #sign {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.navis #sign .iconed {
+  height: 25px;
+  width: 25px;
+}
+#cart {
+  display: flex;
+}
+.wishlist {
+  fill: #fcb08b;
+}
+.wishlist:hover,
+#carteds:hover {
+  cursor: pointer;
+  transform: scale(2);
+  transition: 0.2s;
+}
+#logo {
+  margin: auto;
+  padding: 28px 0;
+}
+#logo img {
+  display: block;
+  height: 46px;
+  margin: auto;
+  cursor: pointer;
+}
+#containers-2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+#containers-2 p {
+  font-weight: 400;
+  font-size: 12px;
+}
+#containers-2 a {
+  color: #ed4a00;
+}
+#containers-2 > div > h3:hover {
+  border-bottom: 1px solid #ed4a00;
+}
+#containers-2 p:hover {
+  font-weight: 700;
+}
+#containers-2 > div:hover .new {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #faf9f9;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: auto;
+}
+#containers-2 img {
+  display: block;
+}

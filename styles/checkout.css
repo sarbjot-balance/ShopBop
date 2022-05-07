@@ -1,0 +1,37 @@
+#otp,
+#order {
+  background-color: rgba(185, 32, 32, 0.982);
+}
+img {
+  display: block;
+  height: 150px;
+}
+#myprod {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #eaeaea;
+}
+#myprod > div {
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.prices {
+  padding-right: 0;
+}
+.btns {
+  background-color: #ba2424;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 5px 6px;
+}
+.btns:hover {
+  background-color: rgb(241, 156, 156);
+  cursor: pointer;
+  color: black;
+}
