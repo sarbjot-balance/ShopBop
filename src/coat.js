@@ -69,3 +69,5 @@ function addToCart(el) {
   totalItems.innerText = data.length;
   localStorage.setItem("arrShop", JSON.stringify(data));
 }
+let totalItems = document.querySelector("#totalItemsCart");
+totalItems.innerText = data.length;

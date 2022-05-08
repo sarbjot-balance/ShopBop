@@ -13,9 +13,9 @@
   display: flex;
   justify-content: center;
 }
-/* #titleimg {
-  /* border: 1px solid rgb(68, 110, 199); */
-/* } */
+#title img {
+  cursor: pointer;
+}
 #form {
   /* border: 1px solid rgb(62, 225, 162); */
   display: flex;

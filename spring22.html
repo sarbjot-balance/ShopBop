@@ -154,6 +154,8 @@
   addingProductRoute();
   addingCartRoute();
   homies();
+
+  let data = JSON.parse(localStorage.getItem("arrShop")) || [];
   let totalItems = document.querySelector("#totalItemsCart");
   totalItems.innerText = data.length;
 </script>
