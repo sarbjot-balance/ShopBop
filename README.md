@@ -15,44 +15,6 @@ Shopbop.com is an online store where it provides the customer with the best bran
 - Java Script
 - BootStrap
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install json-server
-```
-
-Go to the src directory
-
-```bash
-  cd src
-```
-
-Start the local API server
-
-```bash
-  json-server --watch data.json --port 4000
-```
-
-Start the live server from index.html or refer to deploy link
-
-```bash
-  https://sarb908.github.io/ShopBop/
-```
-
 ## Acknowledgements
 
 Hi Everyone, This is our Second team project at Masai school.
@@ -162,3 +124,41 @@ I learn a lot of things in JavaScript, learn more about local storage, how to ap
 I have worked on the cart page and Checkout Page.
 
 I have used HTML, CSS, and Javascript for both page.
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install json-server
+```
+
+Go to the src directory
+
+```bash
+  cd src
+```
+
+Start the local API server
+
+```bash
+  json-server --watch data.json --port 4000
+```
+
+Start the live server from index.html or refer to deploy link
+
+```bash
+  https://sarb908.github.io/ShopBop/
+```
