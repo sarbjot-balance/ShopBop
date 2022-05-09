@@ -93,7 +93,6 @@ I managed the GitHub Repository for my team.
 I’ve also made the required modifications in probably all the files we have.
 
 Learned how to manage the team and communicate in an effective manner.
-I'm a full stack developer...
 
 #### Vishwas Kumar:-
 
