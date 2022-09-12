@@ -13,7 +13,7 @@ addingSigUpRoute();
 addingProductRoute();
 addingCartRoute();
 homies();
-const url = `http://localhost:4000/mens`;
+const url = `https://guarded-mesa-61494.herokuapp.com/mens`;
 
 const container = document.getElementById("men_items");
 

@@ -1,4 +1,4 @@
-const url = `http://localhost:4000/boots`;
+const url = `https://guarded-mesa-61494.herokuapp.com/boots`;
 import navbar from "../components/navbar.js";
 import {
   addingProductRoute,
