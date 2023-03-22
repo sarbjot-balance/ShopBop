@@ -1,4 +1,4 @@
-const url = `https://guarded-mesa-61494.herokuapp.com/boots`;
+const url = `https://shopbop-sarb.onrender.com/boots`;
 import navbar from "../components/navbar.js";
 import {
   addingProductRoute,
