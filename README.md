@@ -1,7 +1,5 @@
 # “Shopbop.com” Website Clone
 
-Shopbop is the global online retail destination for style inspiration and discovery, offering women and men a curated selection of ready-to-wear & accessories from over 1,000 established and emerging designers.
-
 ![Homepage ](https://miro.medium.com/max/1400/1*W720qf6IcTYetaZ5N8nXdg.png)
 
 Shopbop.com is an online store where it provides the customer with the best brands, products, and services at the best price possible.
